@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 97px;
+    background-color: black;
+    
+}
+.navigation a{
+    color: white;
+    margin-left: 32px;
+}
+.navigation a:hover{
+    color: orange;
+}
