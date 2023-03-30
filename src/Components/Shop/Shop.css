@@ -8,3 +8,10 @@
     gap: 45px;
     margin: 50px;
 }
+
+.cart-container{
+    background: rgba(255, 153, 0, 0.3);   
+}
+.cart-title{
+    text-align: center;
+}

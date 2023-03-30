@@ -14,6 +14,7 @@ const Shop = () => {
         const newCart = [...cart, product]
         setCart(newCart);
     }
+    console.log(cart);
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -26,8 +27,9 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h2>Order Summary</h2>
-                <p>Selected items: {cart}</p>
+                <h2 className='cart-title'>Order Summary</h2>
+                <p>Selected items: {cart.length}</p>
+                <p>Price: ${cart[0].price}</p>
             </div>
         </div>
     );
