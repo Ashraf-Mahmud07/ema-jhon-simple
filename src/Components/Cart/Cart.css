@@ -27,3 +27,15 @@
 .grand-total {
     font-size: 21px;
 }
+
+.clear-cart {
+    background: #FF3030;
+    border-radius: 4px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 10px auto;
+    padding: 16px;
+}
